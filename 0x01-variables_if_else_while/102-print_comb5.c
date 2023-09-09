@@ -14,8 +14,7 @@ int main(void)
 
 	for (a = 0; a <= 98; a++)
 	{
-		a = b;
-		for (b = 1; b <= 99; b++)
+		for (b = a; b <= 99; b++)
 		{
 			if (a != b)
 			{
