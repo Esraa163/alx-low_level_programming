@@ -8,32 +8,26 @@
  * Return: Always 0 (Success)
 */
 
-
 int main(void)
 {
-	int digit1 = 0, digit2;
+	int i, k;
 
-	while (digit1 <= 9)
+	for (i = 0; i <= 8; i++)
 	{
-		digit2 = 0;
-		while (digit2 <= 9)
+		for (k = 1; k <= 9; k++)
 		{
-			if (digit1 != digit2 && digit1 < digit2)
+			if (i != k && i < k)
 			{
-				putchar(digit1 + 48);
-				putchar(digit2 + 48);
-
-				if (digit1 + digit2 != 17)
+				putchar(i + 48);
+				putchar(k + 48);
+				if (i + k != 17)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-			digit2++;
 		}
-		digit1++;
 	}
 	putchar('\n');
-
 	return (0);
-}
+
