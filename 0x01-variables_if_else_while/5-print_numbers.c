@@ -10,13 +10,10 @@
 
 int main(void)
 {
-	int digit = 0;
+	int digit;
 
-	while (digit <= 9)
-	{
-		printf("%i", digit);
-		digit++;
-	}
+	for (digit = 0; digit <=9; digit++)
+		ptintf("%d",digit);
 	printf("\n");
 
 	return (0);
