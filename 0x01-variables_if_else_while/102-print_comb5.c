@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description: Print the numbers in spichial sequance
+ * Description: Print the numbers in special sequence
  *
  * Return: 0 (success)
 */
