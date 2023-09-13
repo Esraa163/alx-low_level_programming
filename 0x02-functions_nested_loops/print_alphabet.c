@@ -1,10 +1,15 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "main.h"
 
-#include <stdio.h>
+/**
+ *Description: print alphabits - from a to z by function that maked _putchar
+*/
 
-int _putchar(char c);
-void print_alphabet(void);
+void print_alphabet(void)
+{
+	char ch;
 
+	for(ch = 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
+	_putchar('\n');
+}
 
-#endif
