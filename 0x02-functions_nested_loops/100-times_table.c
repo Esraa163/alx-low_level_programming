@@ -15,7 +15,9 @@ void print_times_table(int n)
 			printf("%d", 0);
 			for (b = 1; b <= n; ++b)
 			{
-				printf("%d,  ", (a * b));
+				printf(",");
+				printf(" ");	
+				printf("%d ", (a * b));
 			}
 			printf("\n");
 		}
