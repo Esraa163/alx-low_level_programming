@@ -23,6 +23,6 @@ int main(void)
 			sum = sum + fib[i];
 		}
 	}
-	printf("%d\n", sum + 1089154);
+	printf("%d\n", sum + fib[1]);
 	return (0);
 }
