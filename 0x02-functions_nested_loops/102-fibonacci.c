@@ -10,20 +10,20 @@
 
 int main(void)
 {
-	int fib[50], i;
+	unsigned long fib[50], i;
 
 	fib[0] = 1;
 	fib[1] = 2;
 
-	printf("%d, %d, ", fib[0], fib[1]);
+	printf("%lu, %lu, ", fib[0], fib[1]);
 
 	for (i = 2; i < 50; i++)
 	{
 		fib[i] = fib[i - 1] + fib[i - 2];
 		if (i == 49)
-			printf("%d ", fib[49]);
+			printf("%lu ", fib[49]);
 		else
-			printf("%d,", fib[i]);
+			printf("%lu,", fib[i]);
 	}
 	printf("\n");
 	return (0);
