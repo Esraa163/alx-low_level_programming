@@ -23,7 +23,7 @@ int main(void)
 		if (i == 49)
 			printf("%lu ", fib[49]);
 		else
-			printf("%lu,", fib[i]);
+			printf("%lu, ", fib[i]);
 	}
 	printf("\n");
 	return (0);
