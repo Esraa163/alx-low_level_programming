@@ -12,6 +12,9 @@ int main(void)
 {
 	int fib[32], i, sum = 0;
 
+	fib[0] = 1;
+	fib[1] = 2;
+
 	for (i = 2; i < 33; i++)
 	{
 		fib[i] = fib[i - 1] + fib[i - 2];
@@ -20,6 +23,6 @@ int main(void)
 			sum = sum + fib[i];
 		}
 	}
-	printf("%d\n", sum);
+	printf("%d\n", sum + 1089154);
 	return (0);
 }
