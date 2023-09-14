@@ -10,15 +10,21 @@
 
 int main(void)
 {
-	int fib[49], i;
+	int fib[50], i;
 
 	fib[0] = 1;
 	fib[1] = 2;
 
-	for (i = 2; i >= 48; i++)
+	printf("%d, %d, ", fib[0], fib[1])
+
+	for (i = 2; i < 50; i++)
 	{
 		fib[i] = fib[i - 1] + fib[i - 2];
-		printf("%d,", fib[i]);
+		if (i == 49)
+			printf("%ld ", fib[49]);
+		else
+			printf("%ld,", fib[i]);
 	}
+	printf("\n");
 	return (0);
 }
