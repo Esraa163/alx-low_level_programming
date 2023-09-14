@@ -21,7 +21,7 @@ int main(void)
 	{
 		fib[i] = fib[i - 1] + fib[i - 2];
 		if (i == 49)
-			printf("%lu ", fib[49]);
+			printf("%lu", fib[49]);
 		else
 			printf("%lu, ", fib[i]);
 	}
