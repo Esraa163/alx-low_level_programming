@@ -27,6 +27,10 @@ int main(void)
 			printf("Buzz ");
 			continue;
 		}
+		if ((num % 3 == 0) && (num % 5 == 0))
+		{
+			printf("FizzBuzz ");
+		}
 		printf("%d ", num);
 	}
 	return (0);
