@@ -11,7 +11,7 @@
 
 int _strlen(char *s)
 {
-	int cout;
+	int count;
 
 	for (count = 0; *s != '\0'; s++)
 		count++;
