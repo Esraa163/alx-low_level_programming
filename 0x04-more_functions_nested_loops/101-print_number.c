@@ -13,14 +13,14 @@ void print_number(int n)
 	/*first check if its negative*/
 	if (n < 0)
 	{
-		num = -num;
+		num = -n;
 		_putchar('-');
 	}
 	else
 		num = n;
 
 	/*print the few digit*/
-	if ((num / 10) > 48)
+	if (num / 10)
 		print_number(num / 10);
 
 	/*print the second digit*/
