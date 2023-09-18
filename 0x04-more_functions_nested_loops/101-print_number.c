@@ -20,7 +20,7 @@ void print_number(int n)
 		num = n;
 
 	/*print the few digit*/
-	if (num / 10)
+	if ((num / 10) > 48)
 		print_number(num / 10);
 
 	/*print the second digit*/
