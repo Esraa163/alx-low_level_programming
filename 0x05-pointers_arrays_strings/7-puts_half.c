@@ -4,8 +4,6 @@
  * puts_half - print the second half of string
  *
  * @str: the input string
- *
- * @n: second half output
 */
 
 void puts_half(char *str)
