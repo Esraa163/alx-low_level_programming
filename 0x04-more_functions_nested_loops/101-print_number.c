@@ -8,7 +8,7 @@
 
 void print_number(int n)
 {
-	unsigned int num;
+	unsigned int num = n;
 
 	/*first check if its negative*/
 	if (n < 0)
@@ -20,7 +20,7 @@ void print_number(int n)
 		num = n;
 
 	/*print the few digit*/
-	if (num / 10)
+	if ((num / 10) > 0)
 		print_number(num / 10);
 
 	/*print the second digit*/
