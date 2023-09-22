@@ -2,8 +2,8 @@
 
 /**
  * _strcmp - comper strings
- * s1: input string
- * s2: input string
+ * @s1: input string
+ * @s2: input string
  * Return: value or 0
 */
 
