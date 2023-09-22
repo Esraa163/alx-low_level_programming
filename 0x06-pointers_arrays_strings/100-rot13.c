@@ -20,7 +20,10 @@ char *rot13(char *a)
 			for (j = 0; j < 52; j++)
 			{
 				if (a[i] == rot13[j])
+				{
 					a[i] = ROT13[j];
+					break;
+				}
 			}
 		}
 
