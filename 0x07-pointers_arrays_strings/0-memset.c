@@ -1,7 +1,7 @@
 #include "main.h"
 
-/*
- * *_memset - work as the function memset
+/**
+ * *_memset - function that work as the function memset
  *
  * @s: input string
  *
