@@ -23,7 +23,7 @@ int last_index(char *s)
  * Return: 1 or 0
 */
 
-is_palindrome(char *s)
+int is_palindrome(char *s)
 {
 	int end = last_index(s);
 
