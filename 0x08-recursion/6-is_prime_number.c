@@ -3,13 +3,15 @@
 /**
  * is_prime_number - print the prime number
  * @n: input number
+ * @m: input number
  * Return: the value
 */
-
+int check_prrime(int n, int m);
 int is_prime_number(int n)
 {
-	return (check_prrime(n, 2));
+	return (check_prime(n, 2));
 }
+
 /**
  * check_prrime - functhion to check
  * @n: number
