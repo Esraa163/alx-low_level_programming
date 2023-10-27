@@ -10,7 +10,7 @@
 int square(int n, int val);
 int _sqrt_recursion(int n)
 {
-	return (squere(n, 1));
+	return (square(n, 1));
 }
 
 /**
@@ -20,7 +20,7 @@ int _sqrt_recursion(int n)
  * Return: int
 */
 
-int squere(int n, int val)
+int square(int n, int val)
 {
 	if (val * val == n)
 		return (val);
