@@ -4,7 +4,7 @@
  * _sqrt_recursion - function of square
  * @n: input number
  * @val: input value
- * Return: the squer of n
+ * Return: the square of n
 */
 
 int square(int n, int val);
@@ -14,7 +14,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * squere - fint the sq
+ * square - fint the sq
  * @n: input number
  * @val: input number
  * Return: int
