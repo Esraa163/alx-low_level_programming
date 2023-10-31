@@ -1,18 +1,17 @@
+#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - piging of the program
- *
- * @argc: input of the size of argv
- *
- * @argv: the string input
- *
- * Return: (0) if true
-*/
+  * main - Prints the number of args
+  * @argc: argument count
+  * @argv: argument vector
+  *
+  * Return: Always zero
+  */
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
+	(void) argc;
 	printf("%s\n", argv[0]);
 	return (0);
 }
