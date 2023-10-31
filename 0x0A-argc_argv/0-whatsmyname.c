@@ -10,7 +10,7 @@
  * Return: (0) if true
 */
 
-int main(int argc, char const *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", argv[argc - 1]);
 	return (0);
