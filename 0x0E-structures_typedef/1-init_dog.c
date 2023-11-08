@@ -7,7 +7,7 @@
  * @age: dog age
  * @owner: dog owner
  *
- * Description: just a lone doge struct in big kitty world
+ * Return: void.
 */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
